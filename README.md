@@ -13,7 +13,7 @@ an internal reporting tool that will use information from the database to discov
 
 # How to run project using termial:
 
-open the terminal and cd to vm diractory than use vagrant up command than vagrant ssh command 
-cd to tool file than run the tool using terminal use this command (python reporting_tool.py )
+open the terminal and cd to vm diractory than use vagrant up command than vagrant ssh command ,
+cd to tool file than run the tool using terminal use this command (python reporting_tool.py ),
 it will run the tool and show the output in terminal .
                        
