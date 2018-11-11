@@ -5,8 +5,7 @@ an internal reporting tool that will use information from the database to discov
 # Requirements for run this project:
 
 * install python 2.7.
-* download database from udacity website.
-* download virtual machine (VM) from udacity website
+* download database (newdata.zip).
 * install vagrant .
 * install vm provider (virualbox).
 * text editor.
