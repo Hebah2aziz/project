@@ -1,5 +1,4 @@
-#written by python version 2
-
+#!/usr/bin/env python2
 import psycopg2
 
 top_articals = '  What are the most popular three articles of all time?'
@@ -42,23 +41,19 @@ class reporting_tool(object):
             print e
 
     def execute_query(self, query):
-       self.cursor.execute(query)
-       return self.cursor.fetchall()
+        self.cursor.execute(query)
+    return self.cursor.fetchall()
 
     def answer(self, ques, query, suffix='views'):
-      query = query.replace('\n',' ')
-      result = self.execute_query(query)
-      print ques
-      for i in range(len(result)):
-         print  "\t",i + 1, '.', result[i][0],'--', result[i][1], suffix
-        
-      print ''
-
-   
+        query = query.replace('\n', ' ')
+        result = self.execute_query(query)
+        print ques
+        for i in range(len(result)):
+            print "\t", i + 1, '.', result[i][0], '--', result[i][1], suffix
+    print ''
 
 if __name__ == '__main__':
     questions = reporting_tool()
     questions.answer(top_articals, top_articals1)
     questions.answer(top_authors, top_authors1)
     questions.answer(error, error1, '% error')
-    
