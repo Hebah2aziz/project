@@ -12,11 +12,11 @@ an internal reporting tool that will use information from the database to discov
 
 # How to run project using termial:
 
-1-download and unzip fsnd-virtual-machine.zip
-2-download and unzip newdata.zip inside folder vagrant .
-3-save reporting_tool.py inside folder vagrant.
-4-cd fsnd-virtual-machine/FSND-Virtual-Machine/vagrant/
-Startup the VM. (This may take a while)
+1- download and unzip fsnd-virtual-machine.zip
+2- download and unzip newdata.zip inside folder vagrant .
+3- save reporting_tool.py inside folder vagrant.
+4- cd fsnd-virtual-machine/FSND-Virtual-Machine/vagrant/
+* Startup the VM. (This may take a while)
 $ vagrant up
 Log in to the VM.
 $ vagrant ssh
