@@ -42,7 +42,7 @@ class reporting_tool(object):
 
     def execute_query(self, query):
         self.cursor.execute(query)
-    return self.cursor.fetchall()
+        return self.cursor.fetchall()
 
     def answer(self, ques, query, suffix='views'):
         query = query.replace('\n', ' ')
